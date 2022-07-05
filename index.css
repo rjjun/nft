@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+#container {
+    border-color: hsl(215, 32%, 27%);
+    width: 240px;
+    height: 450px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(1, 220px);
+    /* grid-template-columns: repeat(1, 230px); */
+    /* grid-auto-flow: row; */
+}
+
+#in_card {
+    background-image: url("../nft-preview-card-component-main/images/image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 215px;
+    height: 215px;
+    margin: 8px;
+    margin-left: 14px;
+}
+
+#main {
+    font-family: 'Outfit', sans-serif;
+}
+
+#content {
+    margin: 11px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 15px;
+}
+
+#description {
+    font-size: 18px;
+    margin: 6px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+}
+
+#e_words {
+    color: hsl(178, 100%, 50%);
+    font-size: small;
+    font-weight: bold;
+    margin: -19.4px;
+    margin-left: 31px;
+}
+
+#icon_eth {
+    margin-left: 16px;
+}
+
+#icon_clock {
+    margin: 2.5px;
+    margin-left: 147px
+}
+
+#clock {
+    margin: 97px;
+}
+
+#c_words {
+    color: hsl(215, 51%, 70%);
+    font-size: small;
+    font-weight: lighter;
+    margin: -22px;
+    margin-left: 169px;
+}
+
+hr {
+    width: 215px;
+    margin-top: 41px;
+    border-width: 0.1px;
+    color: hsl(0, 0%, 100%);
+}
+
+#dp {
+    width: 25px;
+    height: 25px;
+    background-image: url("../nft-preview-card-component-main/images/image-avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin: 14px;
+}
+
+#bio {
+    font-size: small;
+    margin: -33px;
+    margin-left: 44px;
+}
+
+#co {
+    color: hsl(215, 51%, 70%);
+}
+
+#jw {
+    color: hsl(0, 0%, 100%);
+}
